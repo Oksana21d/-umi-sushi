@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/hero";
+
 export default function Home() {
   return (
     <>
@@ -32,7 +33,7 @@ export default function Home() {
           <p
             style={{
               fontSize: "24px",
-              color: "#cccccc",
+              color: "#ccc",
               marginBottom: "40px",
             }}
           >
@@ -58,131 +59,69 @@ export default function Home() {
         <section
           style={{
             padding: "60px 20px",
-            maxWidth: "1100px",
+            maxWidth: "1200px",
             margin: "0 auto",
           }}
         >
           <h2
             style={{
               textAlign: "center",
-              fontSize: "40px",
-              marginBottom: "40px",
+              fontSize: "42px",
+              marginBottom: "50px",
             }}
           >
             Чому обирають нас?
           </h2>
-         <div
-  style={{
-    display: "flex",
-    gap: "20px",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    marginBottom: "60px",
-  }}
->
-  <div
-    style={{
-      background: "#1b1b1b",
-      padding: "20px",
-      borderRadius: "15px",
-      width: "250px",
-      textAlign: "center",
-    }}
-  >
-    <h3>🍣 Свіжі продукти</h3>
-    <p>Щодня використовуємо тільки якісні інгредієнти.</p>
-  </div>
 
-  <div
-    style={{
-      background: "#1b1b1b",
-      padding: "20px",
-      borderRadius: "15px",
-      width: "250px",
-      textAlign: "center",
-    }}
-  >
-    <h3>🚚 Швидка доставка</h3>
-    <p>Доставляємо роли максимально швидко по Покрову.</p>
-  </div>
-
-  <div
-    style={{
-      background: "#1b1b1b",
-      padding: "20px",
-      borderRadius: "15px",
-      width: "250px",
-      textAlign: "center",
-    }}
-  >
-    <h3>❤️ Готуємо з любов'ю</h3>
-    <p>Кожне замовлення готуємо тільки після оформлення.</p>
-  </div>
-</div>
           <div
             style={{
               display: "flex",
-              justifyContent: "space-between",
               gap: "20px",
               flexWrap: "wrap",
+              justifyContent: "center",
             }}
           >
             <div
               style={{
-                flex: "1",
-                minWidth: "250px",
                 background: "#1b1b1b",
                 padding: "30px",
                 borderRadius: "16px",
+                width: "300px",
+                textAlign: "center",
               }}
             >
               <h3>🍣 Свіжі продукти</h3>
-              <p>Щоденне приготування зі свіжих інгредієнтів.</p>
+              <p>Щодня використовуємо тільки якісні інгредієнти.</p>
             </div>
 
             <div
               style={{
-                flex: "1",
-                minWidth: "250px",
                 background: "#1b1b1b",
                 padding: "30px",
                 borderRadius: "16px",
+                width: "300px",
+                textAlign: "center",
               }}
             >
-              <h3>🚗 Швидка доставка</h3>
-              <p>Доставляємо гарячі та свіжі роли по Покрову.</p>
+              <h3>🚚 Швидка доставка</h3>
+              <p>Швидко доставляємо замовлення по Покрову.</p>
             </div>
 
             <div
               style={{
-                flex: "1",
-                minWidth: "250px",
                 background: "#1b1b1b",
                 padding: "30px",
                 borderRadius: "16px",
+                width: "300px",
+                textAlign: "center",
               }}
             >
-              <h3>❤️ Великий вибір</h3>
-              <p>Філадельфії, дракони, запечені роли, сети та багато іншого.</p>
+              <h3>❤️ Готуємо з любов'ю</h3>
+              <p>Кожен рол готуємо тільки після оформлення замовлення.</p>
             </div>
           </div>
         </section>
-      <section
-  style={{
-    marginTop: "100px",
-    textAlign: "center",
-  }}
->
-  <h2
-    style={{
-      fontSize: "42px",
-      marginBottom: "50px",
-    }}
-  >
-    Чому обирають нас?
-  </h2>
-  </section>
-  </main>
+      </main>
     </>
   );
 }
